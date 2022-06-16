@@ -18,7 +18,7 @@ jobs:
     - name: checkout machina
       uses: actions/checkout@v3
       with:
-        repository: "https://github.com/ravahn/machina.git"
+        repository: "ravahn/machina.git"
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
