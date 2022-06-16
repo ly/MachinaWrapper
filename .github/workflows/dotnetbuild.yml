@@ -23,8 +23,6 @@ jobs:
       uses: NuGet/setup-nuget@v1.0.5
     - name: Install dependencies
       run: nuget restore
-    - name: Restore dependencies
-      run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
     - name: Check for duplicate opcodes
